@@ -2,13 +2,13 @@ public class Fluxo {
 
 	public static void main(String[] args) {
 		System.out.println("Ini do main");
-		try{
+		try {
 		    metodo1();
-		} catch(ArithmeticException | NullPointerException | MinhaExcecao ex) {
+		} catch(Exception ex) { //catch genérico, capturando qq exceção
 		    String msg = ex.getMessage();
 		    System.out.println("Exception " + msg);
 		    ex.printStackTrace();
-		} 
+		}
 		System.out.println("Fim do main");
 	}
 
