@@ -8,11 +8,12 @@ public class Conexao implements AutoCloseable{
 
 	public void leDados() {
 		System.out.println("Recebendo dados");
-		 throw new IllegalStateException();
+		throw new IllegalStateException();
 	}
 
-	@Override
-	public void close()  {
+	@Override 
+	public void close() { 
 		System.out.println("Fechando conexao");
+		
 	}
 }
