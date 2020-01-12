@@ -1,5 +1,7 @@
 package br.com.bytebank.banco.teste;
 
+import javax.swing.JOptionPane;
+
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 import br.com.bytebank.banco.modelo.SaldoInsuficienteException;
@@ -14,7 +16,6 @@ public class TesteContas {
 		
 		ContaCorrente outra = null;
 		outra.deposita(200.0); 
-					
 		ContaCorrente cc = new ContaCorrente(111, 111);
 		cc.deposita(100.0);
 		
