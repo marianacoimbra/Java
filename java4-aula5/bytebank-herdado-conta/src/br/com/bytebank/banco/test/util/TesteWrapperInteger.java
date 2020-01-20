@@ -1,14 +1,14 @@
 package br.com.bytebank.banco.test.util;
 
 import java.util.ArrayList;
-
+import java.util.List;
 public class TesteWrapperInteger {
 
 	public static void main(String[] args) {
 		Integer idadeRef = 29; // autoboxinng, é criado um objeto do tipo Integer
 		int primitivo = new Integer(21); // que locura!! unboxing
 
-		ArrayList<Integer> lista = new ArrayList<>();
+		List<Integer> lista = new ArrayList<>();
 		lista.add(idadeRef); // ok
 		lista.add(primitivo); // autoboxing
 
